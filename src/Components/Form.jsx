@@ -16,6 +16,7 @@ import Details from "./Details";
 import PaymentMode from "./PaymentMode";
 import Success from "./Success";
 import PayCard from "./PayCard";
+import Footer from "./Footer";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -231,6 +232,7 @@ export default function Form() {
               </Grid>
             </CardContent>
           </Card>
+          <Footer />
         </Grid>
       </Grid>
     </div>
