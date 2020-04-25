@@ -114,8 +114,9 @@ export default function Form() {
           <AppBar position="static" style={{ background: "#2E3B55" }}>
             <Toolbar>
               <img
-                src="https://cypherock.com/static/img/logo.png"
+                src="https://nikhilsahu.me/favicon.png"
                 alt="logo"
+                style={{ height: 30 }}
                 className={classes.logo}
               />
               <Typography
@@ -123,10 +124,10 @@ export default function Form() {
                 style={{
                   flexGrow: 1,
                   textAlign: "center",
-                  paddingRight: "100px",
+                  paddingRight: "30px",
                 }}
               >
-                Cypherock Pay
+                N Pay
               </Typography>
               <IconButton
                 edge="end"
@@ -154,7 +155,8 @@ export default function Form() {
                   >
                     <Toolbar>
                       <img
-                        src="https://cypherock.com/static/img/logo.png"
+                        src="https://nikhilsahu.me/favicon.png"
+                        style={{ height: 30 }}
                         alt="logo"
                         className={classes.logo}
                       />
